@@ -17,3 +17,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: greytesla
           numOfAssignee: 1
+          failsIfUsersCannotBeAssigned: true
